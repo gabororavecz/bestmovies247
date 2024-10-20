@@ -91,6 +91,7 @@
    transition: 0.2s ease;
    max-block-size: 1;
    width: 200px;
+   text-align: center;
 }
 
 .card-list .card-item .card-link {
