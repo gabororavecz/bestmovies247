@@ -1,0 +1,32 @@
+@media screen and (max-width: 1000px){
+/* Menu-container  */
+.menu-container {
+    color: #030700;
+    background-color: #b98902;  /* Red */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu {
+    /* width: 900px; */
+    display: flex;
+    justify-content: space-between;
+  }
+  .links {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.login {
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.signup {
+  margin-left: auto;
+}
+
+}
