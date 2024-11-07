@@ -5,6 +5,9 @@
     padding: 20px 0;
     display: flex;
     justify-content: center;
+    position: sticky; /* This makes header stick at the top*/
+   top: 0; /* This makes header stick at the top*/
+   z-index: 2022; /* This makes header stick at the top*/
   }
   
   .menu {

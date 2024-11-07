@@ -27,11 +27,11 @@ new Swiper('.card-wrapper', {
             spaceBetween: 10    // Reduce space between slides
         },
     600: {
-            slidesPerView: 3,   // On screens smaller than 600px, show 3 slides
+            slidesPerView: 2,   // On screens smaller than 600px, show 3 slides
             spaceBetween: 20    // Reduce space between slides
         },
     768: {
-      slidesPerView: 4,   // On screens smaller than 768px, show 3 slides
+      slidesPerView: 3,   // On screens smaller than 768px, show 3 slides
       spaceBetween: 30    // Reduce space between slides
     },
     1024: {
