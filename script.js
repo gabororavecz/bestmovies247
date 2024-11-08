@@ -20,27 +20,27 @@ new Swiper('.card-wrapper', {
     breakpoints: {
     300: {
             slidesPerView: 1,   // On screens smaller than 300px, show 2 slides
-            spaceBetween: 10    // Reduce space between slides
+            spaceBetween: 50    // Reduce space between slides
         },
-    375: {
-            slidesPerView: 2,   // On screens smaller than 375px, show 2 slides
-            spaceBetween: 10    // Reduce space between slides
-        },
-    600: {
+    // 375: {
+    //         slidesPerView: 2,   // On screens smaller than 375px, show 2 slides
+    //         spaceBetween: 10    // Reduce space between slides
+    //     },
+    550: {
             slidesPerView: 2,   // On screens smaller than 600px, show 3 slides
-            spaceBetween: 20    // Reduce space between slides
+            spaceBetween: 50    // Reduce space between slides
         },
     768: {
       slidesPerView: 3,   // On screens smaller than 768px, show 3 slides
-      spaceBetween: 30    // Reduce space between slides
+      spaceBetween: 50    // Reduce space between slides
     },
     1024: {
       slidesPerView: 4,   // On screens smaller than 1024px, show 4 slides
-      spaceBetween: 40    // Adjust space between slides for medium screens
+      spaceBetween: 50    // Adjust space between slides for medium screens
     },
     1200: {
       slidesPerView: 5,   // On screens smaller than 1200px, show 5 slides
-      spaceBetween: 40    // Adjust space between slides for large screens
+      spaceBetween: 50    // Adjust space between slides for large screens
     },
     1440: {
       slidesPerView: 6,   // On screens larger than 1440px show 6 slides
