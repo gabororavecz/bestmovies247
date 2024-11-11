@@ -1,3 +1,13 @@
+//Hamburger Navigation Menu
+const hamburger = document.querySelector('.hamburger');
+const menu = document.querySelector('.menu');
+
+hamburger.addEventListener('click', () => {
+    menu.classList.toggle('active');   
+
+});
+
+
 new Swiper('.card-wrapper', {
     loop: true,
     //Space Between Cards

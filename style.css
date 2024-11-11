@@ -21,7 +21,8 @@
 }
 
 .login {
-  margin-left: 20px;
+   padding-left: 20px;
+   padding-right: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center; 
@@ -31,6 +32,70 @@
   margin-left: auto;
 }
 
+/* Hamburger Menu */
+.hamburger {
+   display: none; /* Hide it by default */
+   cursor: pointer;
+}
+
+.hamburger span {
+   display: block;
+   width: 25px;
+   height: 3px;
+   margin-bottom: 5px;
+   background-color: #fff;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+   .menu {
+       display: none; /* Hide the regular menu */
+   }
+
+   .hamburger {
+       display: block; /* Show the hamburger menu */
+       float: right;
+       margin-right: 20px;
+   }
+   .menu.active {
+      display: block; /* Show the menu items */
+      /* Other styles for the active state */
+      margin-right: 20px;
+      
+   }
+   .menu-container {
+      position: sticky; /* This makes header stick at the top*/
+      top: 0; /* This makes header stick at the top*/
+      z-index: 2022; /* This makes header stick at the top*/
+      margin: auto;
+      color: #030700;
+    background-color: #b98902;   
+      padding: 20px 0;
+      display: flex;
+      justify-content: flex-end;
+      
+   }
+   .menu.active .news .signup {
+      display: flex;
+      justify-content: ;
+    }
+    .login {
+      display: flex;
+      justify-content: center;
+      padding-left: 0; /*To override css so in active hamburger  */
+      padding-right: 0; /*To override css so in active hamburger  */
+    }
+    .signup {
+      display: flex;
+      justify-content: center;
+    }
+    .news {
+      display: flex;
+      justify-content: center;
+    }
+    
+  
+}
 
 /* Card Container Section Start */
 
