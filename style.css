@@ -1,4 +1,6 @@
-   /* Menu-container  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+  
+  /* Menu-container  */
   .menu-container {
     color: #030700;
     background-color: #b98902;  /* Red */
@@ -101,7 +103,7 @@
 
 /* Importing Google fonts - Inter  */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap'); */
 
 *{
    margin: 0;

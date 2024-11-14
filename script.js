@@ -7,7 +7,6 @@ hamburger.addEventListener('click', () => {
 
 });
 
-
 new Swiper('.card-wrapper', {
     loop: true,
     //Space Between Cards
@@ -80,3 +79,22 @@ new Swiper('.card-wrapper', {
       title.innerText = words.slice(0, maxWords).join(' ') + '...';
     }
   });
+
+  //Search Bar
+const searchInput = document.getElementById('search-input');
+const searchButton = document.getElementById('search-button');
+const searchableContent   
+ = document.querySelectorAll('.searchable-content');
+
+searchButton.addEventListener('click', () => {
+  const searchTerm = searchInput.value.toLowerCase();
+
+  searchableContent.forEach(content => {
+    const contentText = content.textContent.toLowerCase();
+    if (contentText.includes(searchTerm)) {
+      content.style.display = 'block';
+    } else {
+      content.style.display = 'none';
+    }
+  });
+});
